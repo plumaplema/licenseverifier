@@ -34,7 +34,7 @@ export default async function handler(
       data: {
         code,
         build: build as string,
-        status: true
+        status: false
       },
     });
 
